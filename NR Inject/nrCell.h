@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  nrCell.h
 //  NR Inject
 //
 //  Created by Fabian Buentello on 1/20/15.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWTableViewCell.h"
 
-@interface ViewController : UIViewController
-
+@interface nrCell : SWTableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *nrLabel;
 
 @end
-

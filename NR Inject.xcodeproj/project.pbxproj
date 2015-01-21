@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319208641A6E9EA500471FB0 /* NR_Inject512.png in Resources */ = {isa = PBXBuildFile; fileRef = 319208631A6E9EA500471FB0 /* NR_Inject512.png */; };
+		3192086A1A6EAED000471FB0 /* clear512.png in Resources */ = {isa = PBXBuildFile; fileRef = 319208691A6EAED000471FB0 /* clear512.png */; };
 		31EF4C981A6E69540082D1FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4C971A6E69540082D1FF /* main.m */; };
 		31EF4C9B1A6E69540082D1FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4C9A1A6E69540082D1FF /* AppDelegate.m */; };
-		31EF4C9E1A6E69540082D1FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4C9D1A6E69540082D1FF /* ViewController.m */; };
 		31EF4CA11A6E69540082D1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4C9F1A6E69540082D1FF /* Main.storyboard */; };
 		31EF4CA31A6E69540082D1FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4CA21A6E69540082D1FF /* Images.xcassets */; };
 		31EF4CA61A6E69540082D1FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4CA41A6E69540082D1FF /* LaunchScreen.xib */; };
 		31EF4CB21A6E69550082D1FF /* NR_InjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CB11A6E69550082D1FF /* NR_InjectTests.m */; };
+		31EF4CC21A6E69770082D1FF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EF4CC11A6E69770082D1FF /* NotificationCenter.framework */; };
+		31EF4CCA1A6E69770082D1FF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4CC91A6E69770082D1FF /* MainInterface.storyboard */; };
+		31EF4CCD1A6E69770082D1FF /* NR Injector.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31EF4CBF1A6E69770082D1FF /* NR Injector.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31EF4CD61A6E69FE0082D1FF /* MainTableViewCTRL.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CD51A6E69FE0082D1FF /* MainTableViewCTRL.m */; };
+		31EF4CD91A6E6A1B0082D1FF /* nrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CD81A6E6A1B0082D1FF /* nrCell.m */; };
+		31EF4CDF1A6E6B3E0082D1FF /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CDA1A6E6B3E0082D1FF /* UIFont+FontAwesome.m */; };
+		31EF4CE11A6E6B3E0082D1FF /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CDE1A6E6B3E0082D1FF /* NSString+FontAwesome.m */; };
+		31EF4CEE1A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CE31A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m */; };
+		31EF4CEF1A6E6B520082D1FF /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CE51A6E6B520082D1FF /* SWCellScrollView.m */; };
+		31EF4CF01A6E6B520082D1FF /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CE71A6E6B520082D1FF /* SWLongPressGestureRecognizer.m */; };
+		31EF4CF11A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CEA1A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.m */; };
+		31EF4CF21A6E6B520082D1FF /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CEC1A6E6B520082D1FF /* SWUtilityButtonView.m */; };
+		31EF4CF71A6E6B9B0082D1FF /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CF51A6E6B9B0082D1FF /* SWTableViewCell.m */; };
+		31EF4CFB1A6E6C620082D1FF /* mConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CFA1A6E6C620082D1FF /* mConnection.m */; };
+		31EF4D071A6E6E380082D1FF /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4D061A6E6E380082D1FF /* SettingsController.m */; };
+		31EF4D0B1A6E73BC0082D1FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EF4D0A1A6E73BC0082D1FF /* Foundation.framework */; };
+		31EF4D0D1A6E73C20082D1FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EF4D0C1A6E73C20082D1FF /* UIKit.framework */; };
+		31EF4D0F1A6E73D90082D1FF /* nodeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4D0E1A6E73D90082D1FF /* nodeRed.png */; };
+		31EF4D141A6E776A0082D1FF /* widgetTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4D131A6E776A0082D1FF /* widgetTableController.m */; };
+		31EF4D151A6E78830082D1FF /* mConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4CFA1A6E6C620082D1FF /* mConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,22 +45,81 @@
 			remoteGlobalIDString = 31EF4C911A6E69540082D1FF;
 			remoteInfo = "NR Inject";
 		};
+		31EF4CCB1A6E69770082D1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31EF4C8A1A6E69540082D1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31EF4CBE1A6E69770082D1FF;
+			remoteInfo = "NR Injector";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		31EF4CD11A6E69770082D1FF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31EF4CCD1A6E69770082D1FF /* NR Injector.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		319208631A6E9EA500471FB0 /* NR_Inject512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NR_Inject512.png; sourceTree = "<group>"; };
+		319208691A6EAED000471FB0 /* clear512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear512.png; sourceTree = "<group>"; };
 		31EF4C921A6E69540082D1FF /* NR Inject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NR Inject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EF4C961A6E69540082D1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EF4C971A6E69540082D1FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31EF4C991A6E69540082D1FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31EF4C9A1A6E69540082D1FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31EF4C9C1A6E69540082D1FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		31EF4C9D1A6E69540082D1FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		31EF4CA01A6E69540082D1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31EF4CA21A6E69540082D1FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31EF4CA51A6E69540082D1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		31EF4CAB1A6E69550082D1FF /* NR InjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NR InjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EF4CB01A6E69550082D1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EF4CB11A6E69550082D1FF /* NR_InjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NR_InjectTests.m; sourceTree = "<group>"; };
+		31EF4CBF1A6E69770082D1FF /* NR Injector.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NR Injector.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EF4CC11A6E69770082D1FF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		31EF4CC51A6E69770082D1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EF4CC91A6E69770082D1FF /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		31EF4CD21A6E69870082D1FF /* NR Inject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "NR Inject.entitlements"; sourceTree = "<group>"; };
+		31EF4CD31A6E69900082D1FF /* NR Injector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "NR Injector.entitlements"; sourceTree = "<group>"; };
+		31EF4CD41A6E69FE0082D1FF /* MainTableViewCTRL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCTRL.h; sourceTree = "<group>"; };
+		31EF4CD51A6E69FE0082D1FF /* MainTableViewCTRL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCTRL.m; sourceTree = "<group>"; };
+		31EF4CD71A6E6A1B0082D1FF /* nrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nrCell.h; sourceTree = "<group>"; };
+		31EF4CD81A6E6A1B0082D1FF /* nrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nrCell.m; sourceTree = "<group>"; };
+		31EF4CDA1A6E6B3E0082D1FF /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		31EF4CDB1A6E6B3E0082D1FF /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		31EF4CDD1A6E6B3E0082D1FF /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		31EF4CDE1A6E6B3E0082D1FF /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		31EF4CE31A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		31EF4CE41A6E6B520082D1FF /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		31EF4CE51A6E6B520082D1FF /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		31EF4CE61A6E6B520082D1FF /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		31EF4CE71A6E6B520082D1FF /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		31EF4CE81A6E6B520082D1FF /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		31EF4CE91A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		31EF4CEA1A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		31EF4CEB1A6E6B520082D1FF /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		31EF4CEC1A6E6B520082D1FF /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		31EF4CF51A6E6B9B0082D1FF /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		31EF4CF61A6E6B9B0082D1FF /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		31EF4CF91A6E6C620082D1FF /* mConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mConnection.h; sourceTree = "<group>"; };
+		31EF4CFA1A6E6C620082D1FF /* mConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mConnection.m; sourceTree = "<group>"; };
+		31EF4CFC1A6E6CBC0082D1FF /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		31EF4D051A6E6E380082D1FF /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		31EF4D061A6E6E380082D1FF /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		31EF4D0A1A6E73BC0082D1FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31EF4D0C1A6E73C20082D1FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31EF4D0E1A6E73D90082D1FF /* nodeRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodeRed.png; sourceTree = "<group>"; };
+		31EF4D101A6E75B40082D1FF /* Raleway-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.otf"; sourceTree = "<group>"; };
+		31EF4D111A6E75ED0082D1FF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		31EF4D121A6E776A0082D1FF /* widgetTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widgetTableController.h; sourceTree = "<group>"; };
+		31EF4D131A6E776A0082D1FF /* widgetTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = widgetTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EF4D0D1A6E73C20082D1FF /* UIKit.framework in Frameworks */,
+				31EF4D0B1A6E73BC0082D1FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,14 +139,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31EF4CBC1A6E69770082D1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EF4CC21A6E69770082D1FF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3192086B1A6EB01A00471FB0 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				319208691A6EAED000471FB0 /* clear512.png */,
+				31EF4D0E1A6E73D90082D1FF /* nodeRed.png */,
+				319208631A6E9EA500471FB0 /* NR_Inject512.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
 		31EF4C891A6E69540082D1FF = {
 			isa = PBXGroup;
 			children = (
 				31EF4C941A6E69540082D1FF /* NR Inject */,
 				31EF4CAE1A6E69550082D1FF /* NR InjectTests */,
+				31EF4CC31A6E69770082D1FF /* NR Injector */,
+				31EF4CC01A6E69770082D1FF /* Frameworks */,
 				31EF4C931A6E69540082D1FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +176,7 @@
 			children = (
 				31EF4C921A6E69540082D1FF /* NR Inject.app */,
 				31EF4CAB1A6E69550082D1FF /* NR InjectTests.xctest */,
+				31EF4CBF1A6E69770082D1FF /* NR Injector.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +184,9 @@
 		31EF4C941A6E69540082D1FF /* NR Inject */ = {
 			isa = PBXGroup;
 			children = (
-				31EF4C991A6E69540082D1FF /* AppDelegate.h */,
-				31EF4C9A1A6E69540082D1FF /* AppDelegate.m */,
-				31EF4C9C1A6E69540082D1FF /* ViewController.h */,
-				31EF4C9D1A6E69540082D1FF /* ViewController.m */,
 				31EF4C9F1A6E69540082D1FF /* Main.storyboard */,
-				31EF4CA21A6E69540082D1FF /* Images.xcassets */,
-				31EF4CA41A6E69540082D1FF /* LaunchScreen.xib */,
+				31EF4CFD1A6E6CDB0082D1FF /* mObject */,
+				31EF4CFE1A6E6CED0082D1FF /* Controllers */,
 				31EF4C951A6E69540082D1FF /* Supporting Files */,
 			);
 			path = "NR Inject";
@@ -96,8 +195,18 @@
 		31EF4C951A6E69540082D1FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3192086B1A6EB01A00471FB0 /* Pictures */,
+				31EF4CD21A6E69870082D1FF /* NR Inject.entitlements */,
+				31EF4CA21A6E69540082D1FF /* Images.xcassets */,
+				31EF4CA41A6E69540082D1FF /* LaunchScreen.xib */,
+				31EF4C991A6E69540082D1FF /* AppDelegate.h */,
+				31EF4C9A1A6E69540082D1FF /* AppDelegate.m */,
+				31EF4CF31A6E6B590082D1FF /* Fonts */,
+				31EF4CF81A6E6BB60082D1FF /* SWTableViewCell */,
+				31EF4CF41A6E6B630082D1FF /* Font Awesome */,
 				31EF4C961A6E69540082D1FF /* Info.plist */,
 				31EF4C971A6E69540082D1FF /* main.m */,
+				31EF4CFC1A6E6CBC0082D1FF /* Config.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +228,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		31EF4CC01A6E69770082D1FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4D0C1A6E73C20082D1FF /* UIKit.framework */,
+				31EF4D0A1A6E73BC0082D1FF /* Foundation.framework */,
+				31EF4CC11A6E69770082D1FF /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31EF4CC31A6E69770082D1FF /* NR Injector */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CD31A6E69900082D1FF /* NR Injector.entitlements */,
+				31EF4CC91A6E69770082D1FF /* MainInterface.storyboard */,
+				31EF4D121A6E776A0082D1FF /* widgetTableController.h */,
+				31EF4D131A6E776A0082D1FF /* widgetTableController.m */,
+				31EF4CC41A6E69770082D1FF /* Supporting Files */,
+			);
+			path = "NR Injector";
+			sourceTree = "<group>";
+		};
+		31EF4CC41A6E69770082D1FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CC51A6E69770082D1FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31EF4CF31A6E6B590082D1FF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4D111A6E75ED0082D1FF /* FontAwesome.ttf */,
+				31EF4D101A6E75B40082D1FF /* Raleway-Light.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		31EF4CF41A6E6B630082D1FF /* Font Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CDA1A6E6B3E0082D1FF /* UIFont+FontAwesome.m */,
+				31EF4CDB1A6E6B3E0082D1FF /* UIFont+FontAwesome.h */,
+				31EF4CDD1A6E6B3E0082D1FF /* NSString+FontAwesome.h */,
+				31EF4CDE1A6E6B3E0082D1FF /* NSString+FontAwesome.m */,
+			);
+			name = "Font Awesome";
+			sourceTree = "<group>";
+		};
+		31EF4CF81A6E6BB60082D1FF /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CE31A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m */,
+				31EF4CF61A6E6B9B0082D1FF /* NSMutableArray+SWUtilityButtons.h */,
+				31EF4CE41A6E6B520082D1FF /* SWCellScrollView.h */,
+				31EF4CE51A6E6B520082D1FF /* SWCellScrollView.m */,
+				31EF4CE61A6E6B520082D1FF /* SWLongPressGestureRecognizer.h */,
+				31EF4CE71A6E6B520082D1FF /* SWLongPressGestureRecognizer.m */,
+				31EF4CF51A6E6B9B0082D1FF /* SWTableViewCell.m */,
+				31EF4CE81A6E6B520082D1FF /* SWTableViewCell.h */,
+				31EF4CE91A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.h */,
+				31EF4CEA1A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.m */,
+				31EF4CEB1A6E6B520082D1FF /* SWUtilityButtonView.h */,
+				31EF4CEC1A6E6B520082D1FF /* SWUtilityButtonView.m */,
+			);
+			name = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		31EF4CFD1A6E6CDB0082D1FF /* mObject */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CF91A6E6C620082D1FF /* mConnection.h */,
+				31EF4CFA1A6E6C620082D1FF /* mConnection.m */,
+			);
+			name = mObject;
+			sourceTree = "<group>";
+		};
+		31EF4CFE1A6E6CED0082D1FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4D051A6E6E380082D1FF /* SettingsController.h */,
+				31EF4D061A6E6E380082D1FF /* SettingsController.m */,
+				31EF4CD41A6E69FE0082D1FF /* MainTableViewCTRL.h */,
+				31EF4CD51A6E69FE0082D1FF /* MainTableViewCTRL.m */,
+				31EF4CD71A6E6A1B0082D1FF /* nrCell.h */,
+				31EF4CD81A6E6A1B0082D1FF /* nrCell.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +329,12 @@
 				31EF4C8E1A6E69540082D1FF /* Sources */,
 				31EF4C8F1A6E69540082D1FF /* Frameworks */,
 				31EF4C901A6E69540082D1FF /* Resources */,
+				31EF4CD11A6E69770082D1FF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				31EF4CCC1A6E69770082D1FF /* PBXTargetDependency */,
 			);
 			name = "NR Inject";
 			productName = "NR Inject";
@@ -157,6 +359,23 @@
 			productReference = 31EF4CAB1A6E69550082D1FF /* NR InjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		31EF4CBE1A6E69770082D1FF /* NR Injector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31EF4CCE1A6E69770082D1FF /* Build configuration list for PBXNativeTarget "NR Injector" */;
+			buildPhases = (
+				31EF4CBB1A6E69770082D1FF /* Sources */,
+				31EF4CBC1A6E69770082D1FF /* Frameworks */,
+				31EF4CBD1A6E69770082D1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NR Injector";
+			productName = "NR Injector";
+			productReference = 31EF4CBF1A6E69770082D1FF /* NR Injector.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +387,25 @@
 				TargetAttributes = {
 					31EF4C911A6E69540082D1FF = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C58B9JYR46;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					31EF4CAA1A6E69550082D1FF = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 31EF4C911A6E69540082D1FF;
+					};
+					31EF4CBE1A6E69770082D1FF = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C58B9JYR46;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -190,6 +424,7 @@
 			targets = (
 				31EF4C911A6E69540082D1FF /* NR Inject */,
 				31EF4CAA1A6E69550082D1FF /* NR InjectTests */,
+				31EF4CBE1A6E69770082D1FF /* NR Injector */,
 			);
 		};
 /* End PBXProject section */
@@ -200,8 +435,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31EF4CA11A6E69540082D1FF /* Main.storyboard in Resources */,
+				319208641A6E9EA500471FB0 /* NR_Inject512.png in Resources */,
+				3192086A1A6EAED000471FB0 /* clear512.png in Resources */,
 				31EF4CA61A6E69540082D1FF /* LaunchScreen.xib in Resources */,
 				31EF4CA31A6E69540082D1FF /* Images.xcassets in Resources */,
+				31EF4D0F1A6E73D90082D1FF /* nodeRed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +450,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31EF4CBD1A6E69770082D1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EF4CCA1A6E69770082D1FF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,9 +465,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31EF4C9E1A6E69540082D1FF /* ViewController.m in Sources */,
+				31EF4CD61A6E69FE0082D1FF /* MainTableViewCTRL.m in Sources */,
+				31EF4CEF1A6E6B520082D1FF /* SWCellScrollView.m in Sources */,
+				31EF4CF11A6E6B520082D1FF /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				31EF4C9B1A6E69540082D1FF /* AppDelegate.m in Sources */,
+				31EF4CE11A6E6B3E0082D1FF /* NSString+FontAwesome.m in Sources */,
+				31EF4CF71A6E6B9B0082D1FF /* SWTableViewCell.m in Sources */,
+				31EF4CEE1A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				31EF4CF01A6E6B520082D1FF /* SWLongPressGestureRecognizer.m in Sources */,
 				31EF4C981A6E69540082D1FF /* main.m in Sources */,
+				31EF4CDF1A6E6B3E0082D1FF /* UIFont+FontAwesome.m in Sources */,
+				31EF4CF21A6E6B520082D1FF /* SWUtilityButtonView.m in Sources */,
+				31EF4CD91A6E6A1B0082D1FF /* nrCell.m in Sources */,
+				31EF4D071A6E6E380082D1FF /* SettingsController.m in Sources */,
+				31EF4CFB1A6E6C620082D1FF /* mConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +490,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31EF4CBB1A6E69770082D1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EF4D151A6E78830082D1FF /* mConnection.m in Sources */,
+				31EF4D141A6E776A0082D1FF /* widgetTableController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +506,11 @@
 			isa = PBXTargetDependency;
 			target = 31EF4C911A6E69540082D1FF /* NR Inject */;
 			targetProxy = 31EF4CAC1A6E69550082D1FF /* PBXContainerItemProxy */;
+		};
+		31EF4CCC1A6E69770082D1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31EF4CBE1A6E69770082D1FF /* NR Injector */;
+			targetProxy = 31EF4CCB1A6E69770082D1FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,7 +615,8 @@
 		31EF4CB61A6E69550082D1FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = newAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NR Inject/NR Inject.entitlements";
 				INFOPLIST_FILE = "NR Inject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,7 +626,8 @@
 		31EF4CB71A6E69550082D1FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = newAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NR Inject/NR Inject.entitlements";
 				INFOPLIST_FILE = "NR Inject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,6 +668,32 @@
 			};
 			name = Release;
 		};
+		31EF4CCF1A6E69770082D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "NR Injector/NR Injector.entitlements";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NR Injector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31EF4CD01A6E69770082D1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "NR Injector/NR Injector.entitlements";
+				INFOPLIST_FILE = "NR Injector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +713,7 @@
 				31EF4CB71A6E69550082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31EF4CB81A6E69550082D1FF /* Build configuration list for PBXNativeTarget "NR InjectTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +722,16 @@
 				31EF4CBA1A6E69550082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31EF4CCE1A6E69770082D1FF /* Build configuration list for PBXNativeTarget "NR Injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EF4CCF1A6E69770082D1FF /* Debug */,
+				31EF4CD01A6E69770082D1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
