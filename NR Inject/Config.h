@@ -14,8 +14,6 @@
 //#define appColor 0xff9900       //CHANGE COLOR OF APP IF NEEDED
 #define appColor 0x7676BC       //CHANGE COLOR OF APP IF NEEDED
 
-#define dummyJSON @"http://www.json-generator.com/api/json/get/cdAMWfAQHS?indent=4"
-
 // get Nodes Format     :IPAddress:Port/injector/nodes              NSString *urlStr = [NSString stringWithFormat:@"%@/injector/nodes",self.currentSettings.url];
 // Trigger Node Format  :IPAddress:Port/injector/inject?id=1234     NSString *TriggerStr = [NSString stringWithFormat:@"%@/injector/inject?id=%@",[obj objectForKey:@"id"]];
 
