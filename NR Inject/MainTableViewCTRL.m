@@ -40,8 +40,8 @@ UILabel *backgroundMessage;
     
     NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
     
-    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
-    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
+//    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
+//    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
     
 
 
@@ -103,8 +103,8 @@ UILabel *backgroundMessage;
     NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
     self.ipAddress = [myDefaults objectForKey:@"ip"];
     self.password = [myDefaults objectForKey:@"password"];
-    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
-    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
+//    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
+//    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
     
     if (self.ipAddress != nil) {
         _mConnect = [mConnection new];
@@ -114,8 +114,8 @@ UILabel *backgroundMessage;
         [myDefaults setObject:self.password forKey:@"password"];
         [myDefaults synchronize];
         
-        NSLog(@"%@",[myDefaults objectForKey:@"ip"]);
-        NSLog(@"%@",[myDefaults objectForKey:@"password"]);
+//        NSLog(@"%@",[myDefaults objectForKey:@"ip"]);
+//        NSLog(@"%@",[myDefaults objectForKey:@"password"]);
         
         [_mConnect getNodesFromIP:self.ipAddress
                       andPassword:self.password

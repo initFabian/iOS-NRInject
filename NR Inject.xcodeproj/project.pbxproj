@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		319208641A6E9EA500471FB0 /* NR_Inject512.png in Resources */ = {isa = PBXBuildFile; fileRef = 319208631A6E9EA500471FB0 /* NR_Inject512.png */; };
 		3192086A1A6EAED000471FB0 /* clear512.png in Resources */ = {isa = PBXBuildFile; fileRef = 319208691A6EAED000471FB0 /* clear512.png */; };
+		319D99101A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319D990F1A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.m */; };
+		31A6D9641A7B4C0200228F4A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4D111A6E75ED0082D1FF /* FontAwesome.ttf */; };
+		31A6D9651A7B4C0200228F4A /* Raleway-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4D101A6E75B40082D1FF /* Raleway-Light.otf */; };
 		31EF4C981A6E69540082D1FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4C971A6E69540082D1FF /* main.m */; };
 		31EF4C9B1A6E69540082D1FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF4C9A1A6E69540082D1FF /* AppDelegate.m */; };
 		31EF4CA11A6E69540082D1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EF4C9F1A6E69540082D1FF /* Main.storyboard */; };
@@ -71,6 +74,8 @@
 /* Begin PBXFileReference section */
 		319208631A6E9EA500471FB0 /* NR_Inject512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NR_Inject512.png; sourceTree = "<group>"; };
 		319208691A6EAED000471FB0 /* clear512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear512.png; sourceTree = "<group>"; };
+		319D990E1A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		319D990F1A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		31EF4C921A6E69540082D1FF /* NR Inject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NR Inject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EF4C961A6E69540082D1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EF4C971A6E69540082D1FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -160,6 +165,25 @@
 			name = Pictures;
 			sourceTree = "<group>";
 		};
+		319D99111A70EF62007D1354 /* TPKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				319D990E1A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.h */,
+				319D990F1A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.m */,
+			);
+			name = TPKeyboard;
+			sourceTree = "<group>";
+		};
+		319D99121A70EF72007D1354 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CF31A6E6B590082D1FF /* Fonts */,
+				31EF4CF81A6E6BB60082D1FF /* SWTableViewCell */,
+				319D99111A70EF62007D1354 /* TPKeyboard */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		31EF4C891A6E69540082D1FF = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				31EF4C9F1A6E69540082D1FF /* Main.storyboard */,
+				319D99121A70EF72007D1354 /* Libraries */,
 				31EF4CFD1A6E6CDB0082D1FF /* mObject */,
 				31EF4CFE1A6E6CED0082D1FF /* Controllers */,
 				31EF4C951A6E69540082D1FF /* Supporting Files */,
@@ -201,8 +226,6 @@
 				31EF4CA41A6E69540082D1FF /* LaunchScreen.xib */,
 				31EF4C991A6E69540082D1FF /* AppDelegate.h */,
 				31EF4C9A1A6E69540082D1FF /* AppDelegate.m */,
-				31EF4CF31A6E6B590082D1FF /* Fonts */,
-				31EF4CF81A6E6BB60082D1FF /* SWTableViewCell */,
 				31EF4CF41A6E6B630082D1FF /* Font Awesome */,
 				31EF4C961A6E69540082D1FF /* Info.plist */,
 				31EF4C971A6E69540082D1FF /* main.m */,
@@ -396,6 +419,7 @@
 					};
 					31EF4CAA1A6E69550082D1FF = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C58B9JYR46;
 						TestTargetID = 31EF4C911A6E69540082D1FF;
 					};
 					31EF4CBE1A6E69770082D1FF = {
@@ -434,6 +458,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A6D9641A7B4C0200228F4A /* FontAwesome.ttf in Resources */,
+				31A6D9651A7B4C0200228F4A /* Raleway-Light.otf in Resources */,
 				31EF4CA11A6E69540082D1FF /* Main.storyboard in Resources */,
 				319208641A6E9EA500471FB0 /* NR_Inject512.png in Resources */,
 				3192086A1A6EAED000471FB0 /* clear512.png in Resources */,
@@ -471,6 +497,7 @@
 				31EF4C9B1A6E69540082D1FF /* AppDelegate.m in Sources */,
 				31EF4CE11A6E6B3E0082D1FF /* NSString+FontAwesome.m in Sources */,
 				31EF4CF71A6E6B9B0082D1FF /* SWTableViewCell.m in Sources */,
+				319D99101A70EF4C007D1354 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				31EF4CEE1A6E6B520082D1FF /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				31EF4CF01A6E6B520082D1FF /* SWLongPressGestureRecognizer.m in Sources */,
 				31EF4C981A6E69540082D1FF /* main.m in Sources */,
@@ -534,7 +561,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		31EF4CB31A6E69550082D1FF /* Debug */ = {
+		319BCD281A70E6D30074A619 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -551,8 +578,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fabian Buentello (7M46W37VPA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -571,6 +599,109 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "26e9873e-2db5-4335-9772-128224f6fd63";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		319BCD291A70E6D30074A619 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = newAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NR Inject/NR Inject.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "NR Inject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Distribution;
+		};
+		319BCD2A1A70E6D30074A619 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NR InjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NR Inject.app/NR Inject";
+			};
+			name = Distribution;
+		};
+		319BCD2B1A70E6D30074A619 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "NR Injector/NR Injector.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NR Injector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
+			};
+			name = Distribution;
+		};
+		31EF4CB31A6E69550082D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fabian Buentello (7M46W37VPA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "26e9873e-2db5-4335-9772-128224f6fd63";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -593,6 +724,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fabian Buentello (7M46W37VPA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -606,6 +738,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "26e9873e-2db5-4335-9772-128224f6fd63";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -617,9 +750,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = newAppIcon;
 				CODE_SIGN_ENTITLEMENTS = "NR Inject/NR Inject.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "NR Inject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -628,9 +765,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = newAppIcon;
 				CODE_SIGN_ENTITLEMENTS = "NR Inject/NR Inject.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "NR Inject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -638,6 +779,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -649,6 +792,7 @@
 				INFOPLIST_FILE = "NR InjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NR Inject.app/NR Inject";
 			};
 			name = Debug;
@@ -657,6 +801,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -664,6 +810,7 @@
 				INFOPLIST_FILE = "NR InjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NR Inject.app/NR Inject";
 			};
 			name = Release;
@@ -672,6 +819,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "NR Injector/NR Injector.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -679,7 +829,10 @@
 				INFOPLIST_FILE = "NR Injector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SEPARATE_STRIP = YES;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Debug;
 		};
@@ -687,10 +840,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "NR Injector/NR Injector.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "NR Injector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SEPARATE_STRIP = YES;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Release;
 		};
@@ -701,6 +860,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31EF4CB31A6E69550082D1FF /* Debug */,
+				319BCD281A70E6D30074A619 /* Distribution */,
 				31EF4CB41A6E69550082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -710,6 +870,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31EF4CB61A6E69550082D1FF /* Debug */,
+				319BCD291A70E6D30074A619 /* Distribution */,
 				31EF4CB71A6E69550082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -719,6 +880,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31EF4CB91A6E69550082D1FF /* Debug */,
+				319BCD2A1A70E6D30074A619 /* Distribution */,
 				31EF4CBA1A6E69550082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -728,6 +890,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31EF4CCF1A6E69770082D1FF /* Debug */,
+				319BCD2B1A70E6D30074A619 /* Distribution */,
 				31EF4CD01A6E69770082D1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
