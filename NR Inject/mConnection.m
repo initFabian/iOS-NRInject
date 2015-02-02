@@ -14,21 +14,14 @@ NSURLSessionDataTask *dataTask;
 
 @implementation mConnection
 
-+(NSURLSession *) sessionWithPassword:(NSString *)pwd {
-    
-    if (session != nil)  return session;
-    
-    NSURLSessionConfiguration *sessionConfig =
-    [NSURLSessionConfiguration defaultSessionConfiguration];
-    
-    // 3
-    sessionConfig.timeoutIntervalForRequest = 60.0;
-    sessionConfig.timeoutIntervalForResource = 60.0;
-    
-    session = [NSURLSession sessionWithConfiguration:sessionConfig];
-    return session;
-}
 
+/**
+ *  This is where all the Networking happens.
+ *
+ *  @param session NSURLSession: mySessionWithPassword:
+ *  @param req     NSMutableURLRequest: myRequestWithURL:
+ *  @param handler Function: Callback
+ */
 - (void)dataTaskFromSession:(NSURLSession *)session andRequest:(NSMutableURLRequest *)req withCallBack:(void(^)(bool error, NSMutableArray *response))handler{
     
     _completionHandler = [handler copy];
@@ -54,6 +47,15 @@ NSURLSessionDataTask *dataTask;
     [dataTask resume];
 }
 
+
+/**
+ *  Sets the NSURLSession that will be passed to dataTaskFromSession:andRequest:withCallBack:
+ *
+ *  @param pwd String: Password for the config node
+ *
+ *  @return NSURLSession Object
+ */
+
 - (NSURLSession *)mySessionWithPassword:(NSString *)pwd {
     NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
     sessionConfiguration.HTTPAdditionalHeaders = @{@"AUTH": pwd};
@@ -62,6 +64,14 @@ NSURLSessionDataTask *dataTask;
     return session;
 }
 
+
+/**
+ *  Sets NSMutableURLRequest that will be passed to dataTaskFromSession:andRequest:withCallBack:
+ *
+ *  @param url String: IP Address of Node-Red instance
+ *
+ *  @return NSMutableURLRequest Object
+ */
 - (NSMutableURLRequest *)myRequestWithURL:(NSString *)url {
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
     

@@ -69,6 +69,10 @@ mConnection *_mConnect;
     
 }
 
+/**
+ *  If we are here, that means all tests were passed and we are going to 
+ *  save the IP Adress and Password to the device
+ */
 - (void)saveSettings {
     
     [loadSpinner stopAnimating];

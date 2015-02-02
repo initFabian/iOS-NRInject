@@ -38,8 +38,7 @@ UILabel *backgroundMessage;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
-    
+//    NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
 //    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
 //    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
     
@@ -98,6 +97,9 @@ UILabel *backgroundMessage;
     }
 }
 
+/**
+ *  Get Data by using the mConnection Class
+ */
 -(void) getData {
 
     NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];

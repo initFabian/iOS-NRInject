@@ -15,15 +15,39 @@
     void (^_verifyHandler)(bool error, NSMutableArray *response);
 }
 
+/**
+ *  Get Nodes from Node-Red instance
+ *
+ *  @param url         String: IP Address of Node-Red instance
+ *  @param password    String: Password for the config node
+ *  @param nodeHandler Function: Callback
+ */
 - (void)getNodesFromIP:(NSString *)url
            andPassword:(NSString *)password
           withCallBack:(void(^)(bool error, NSMutableArray *response))nodeHandler;
 
+/**
+ *  Trigger Node
+ *
+ *  @param url            String: IP Address of Node-Red instance
+ *  @param password       String: Password for the config node
+ *  @param nodeID         String: nodeID
+ *  @param triggerHandler Function: Callback
+ */
 - (void)triggerNodeWithIP:(NSString *)url
               andPassword:(NSString *)password
                 andNodeID:(NSString *)nodeID
              withCallBack:(void(^)(bool error, NSMutableArray *response))triggerHandler;
 
+
+
+/**
+ *  Verify The IP Address before saving it
+ *
+ *  @param ipAddress     String: IP Address of Node-Red instance
+ *  @param password      String: Password for the config node
+ *  @param verifyHandler Function: Callback
+ */
 - (void) verifyipAddress:(NSString *)ipAddress
             withPassword:(NSString *)password
             withCallBack:(void(^)(bool error, NSMutableArray *response))verifyHandler;

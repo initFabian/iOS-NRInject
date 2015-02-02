@@ -155,6 +155,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		316ABBB71A7F3639005CE022 /* Settings Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4D051A6E6E380082D1FF /* SettingsController.h */,
+				31EF4D061A6E6E380082D1FF /* SettingsController.m */,
+			);
+			name = "Settings Controller";
+			sourceTree = "<group>";
+		};
+		316ABBB81A7F3649005CE022 /* TableView Controller */ = {
+			isa = PBXGroup;
+			children = (
+				316ABBB91A7F3654005CE022 /* TableCell */,
+				31EF4CD41A6E69FE0082D1FF /* MainTableViewCTRL.h */,
+				31EF4CD51A6E69FE0082D1FF /* MainTableViewCTRL.m */,
+			);
+			name = "TableView Controller";
+			sourceTree = "<group>";
+		};
+		316ABBB91A7F3654005CE022 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4CD71A6E6A1B0082D1FF /* nrCell.h */,
+				31EF4CD81A6E6A1B0082D1FF /* nrCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
 		3192086B1A6EB01A00471FB0 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,12 +360,8 @@
 		31EF4CFE1A6E6CED0082D1FF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				31EF4D051A6E6E380082D1FF /* SettingsController.h */,
-				31EF4D061A6E6E380082D1FF /* SettingsController.m */,
-				31EF4CD41A6E69FE0082D1FF /* MainTableViewCTRL.h */,
-				31EF4CD51A6E69FE0082D1FF /* MainTableViewCTRL.m */,
-				31EF4CD71A6E6A1B0082D1FF /* nrCell.h */,
-				31EF4CD81A6E6A1B0082D1FF /* nrCell.m */,
+				316ABBB71A7F3639005CE022 /* Settings Controller */,
+				316ABBB81A7F3649005CE022 /* TableView Controller */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
