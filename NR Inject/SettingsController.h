@@ -15,9 +15,10 @@
 @property (strong, nonatomic) IBOutlet UITextField *port;
 @property (strong, nonatomic) IBOutlet UITextField *password;
 @property(strong, nonatomic) IBOutlet UILabel *checkMarkLabel;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *urlSegmentedCtrl;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *loadSpinner;
-@property (strong, nonatomic) NSString *ipAddressStr;
-@property (strong, nonatomic) NSString *passwordStr;
+@property (strong, nonatomic) IBOutlet UILabel *cloudURLNote;
+
 @property (weak, nonatomic) IBOutlet TPKeyboardAvoidingScrollView *scrollView;
 
 @end

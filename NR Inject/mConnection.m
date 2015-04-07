@@ -98,7 +98,7 @@ NSURLSessionDataTask *dataTask;
     
     _triggerHandler = [triggerHandler copy];
     NSURLSession *session = [self mySessionWithPassword:password];
-    NSLog(@"%@",[NSString stringWithFormat:@"http://%@/injector/inject?id=%@",url,nodeID]);
+    NSLog(@"%@",[NSString stringWithFormat:@"%@/injector/inject?id=%@",url,nodeID]);
     NSMutableURLRequest *request = [self myRequestWithURL:[NSString stringWithFormat:@"http://%@/injector/inject?id=%@",url,nodeID]];
     
     [self dataTaskFromSession:session andRequest:request withCallBack:^(bool error, NSMutableArray *response) {

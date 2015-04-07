@@ -21,7 +21,8 @@
 @property (nonatomic) bool pulledToGetData;
 @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) IBOutlet UIButton *settingsBtn;
-@property (strong, nonatomic) NSString *ipAddress;
+@property (strong, nonatomic) NSString *Address;
+@property (strong, nonatomic) NSString *cloudURL;
 @property (strong, nonatomic) NSString *password;
 @end
 
@@ -103,23 +104,17 @@ UILabel *backgroundMessage;
 -(void) getData {
 
     NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
-    self.ipAddress = [myDefaults objectForKey:@"ip"];
+    self.Address = ([myDefaults objectForKey:@"ip"]) ? [myDefaults objectForKey:@"ip"] : [myDefaults objectForKey:@"cloudURL"];
+    self.cloudURL = [myDefaults objectForKey:@"cloudURL"];
     self.password = [myDefaults objectForKey:@"password"];
 //    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"ip"]);
 //    NSLog(@"viewDidLoad NSUserDefaults: %@",[myDefaults objectForKey:@"password"]);
     
-    if (self.ipAddress != nil) {
+    if (self.Address != nil) {
         _mConnect = [mConnection new];
         MainTableViewCTRL * __weak weakSelf = self;
-        NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
-        [myDefaults setObject:self.ipAddress forKey:@"ip"];
-        [myDefaults setObject:self.password forKey:@"password"];
-        [myDefaults synchronize];
         
-//        NSLog(@"%@",[myDefaults objectForKey:@"ip"]);
-//        NSLog(@"%@",[myDefaults objectForKey:@"password"]);
-        
-        [_mConnect getNodesFromIP:self.ipAddress
+        [_mConnect getNodesFromIP:self.Address
                       andPassword:self.password
                      withCallBack:^(bool error, NSMutableArray *response) {
                          if (!error) {
@@ -245,7 +240,7 @@ UILabel *backgroundMessage;
 -(void)triggerNodeAtIndex:(NSIndexPath *)nIndex {
     NSString *pid = [[self.cellTitles objectAtIndex:nIndex.row] objectForKey:@"id"];
 
-    [_mConnect triggerNodeWithIP:self.ipAddress
+    [_mConnect triggerNodeWithIP:self.Address
                      andPassword:self.password
                        andNodeID:pid withCallBack:^(bool error, NSMutableArray *response) {
                            NSLog(@"Triggered Node Response: %@",response);
