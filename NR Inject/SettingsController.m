@@ -27,6 +27,10 @@ mConnection *_mConnect;
     
     [super viewWillAppear:animated];
     isSetToURL = false;
+    if (cloudURL.length) {
+        [self.urlSegmentedCtrl setSelectedSegmentIndex:1];
+        [self segmentedControlChanged];
+    }
     
 }
 - (void)viewDidLoad {
@@ -44,7 +48,7 @@ mConnection *_mConnect;
     self.checkMarkLabel.hidden = YES;
 
     [self.urlSegmentedCtrl addTarget:self
-                              action:@selector(segmentedControlChanged:)
+                              action:@selector(segmentedControlChanged)
                forControlEvents:UIControlEventValueChanged];
 
     self.ipAddress.delegate = self;
@@ -63,9 +67,8 @@ mConnection *_mConnect;
     password.text = passwordStr;
 }
 
--(void)segmentedControlChanged:(id)sender {
-    UISegmentedControl *segmentedControl = (UISegmentedControl *) sender;
-    NSInteger selectedSegment = segmentedControl.selectedSegmentIndex;
+-(void)segmentedControlChanged {
+    NSInteger selectedSegment = self.urlSegmentedCtrl.selectedSegmentIndex;
 
 
     switch (selectedSegment) {

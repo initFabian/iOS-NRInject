@@ -16,7 +16,8 @@
     // Perform any setup necessary in order to update the view.
     
     NSUserDefaults *myDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.mioty.NR_Injector"];
-    self.ipAddress = [myDefaults objectForKey:@"ip"];
+//    self.ipAddress = [myDefaults objectForKey:@"ip"];
+    self.ipAddress = ([myDefaults objectForKey:@"ip"]) ? [myDefaults objectForKey:@"ip"] : [myDefaults objectForKey:@"cloudURL"];
     self.password = [myDefaults objectForKey:@"password"];
     NSLog(@"widgetPerformUpdateWithCompletionHandler: NSUserDefaults: %@",self.ipAddress);
     NSLog(@"widgetPerformUpdateWithCompletionHandler: NSUserDefaults: %@",self.password);
